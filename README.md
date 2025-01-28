@@ -58,5 +58,5 @@ The workflow will run successfully and display the message `Hello, GitHub Action
 
 
 
-Thank you
+-Thank you
 Sangeeth
