@@ -23,23 +23,24 @@ CheckPoint 3 demonstrates how to create a simple GitHub Actions workflow to auto
 
 4. ** Workflow**
    - Added the following content to the `main.yml` file:
-     ```yaml
-     name: Simple Workflow
+```yaml
+name: CheckPoint3Workflow
 
-     on:
-       push:
-         branches:
-           - main
+on:
+  push:
+    branches:
+      - main
 
-     jobs:
-       build:
-         runs-on: ubuntu-latest
-         steps:
-           - name: Checkout Repository
-             uses: actions/checkout@v3
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-           - name: Print Message
-             run: echo "Hello, GitHub Actions!"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Print message
+        run: echo "Hello, GitHub Actions!"
      ```
 
 5. **Committed and Pushed Changes**
