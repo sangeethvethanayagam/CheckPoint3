@@ -23,7 +23,7 @@ CheckPoint 3 demonstrates how to create a simple GitHub Actions workflow to auto
 
 4. ** Workflow**
    - Added the following content to the `main.yml` file:
-```yaml
+     ```yaml
 name: CheckPoint3Workflow
 
 on:
@@ -47,7 +47,6 @@ jobs:
   
 
 
-
 ## Expected Outcome
 The workflow will run successfully and display the message `Hello, GitHub Actions!` in the logs.
 
@@ -59,5 +58,5 @@ The workflow will run successfully and display the message `Hello, GitHub Action
 
 
 
--Thank you
-Sangeeth
+## Thank you
+## Sangeeth
